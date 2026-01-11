@@ -1,0 +1,130 @@
+(footprint "SS12D01G4"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1996a6fc-2549-401d-aff3-e9ac996f1cec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SS12D01G4"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e9625957-a4b2-4a27-bb76-bafb01a1f571")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ckswitches.com/media/1430/ss.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4aeefba7-a19b-4860-8108-220b27e65123")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Switronic lndustrial Corp. SS12D01G4 THT P2.5mm SPDT Slide Switch"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9292644e-9713-479c-baf5-9dd8b41fb0a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "調達リンク" "https://akizukidenshi.com/catalog/g/g112723/"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eade6213-5ef8-41ed-a688-a262bdc28dbd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -4.9 -2.45)
+		(end 4.9 2.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "eb70f6d0-5d73-41f3-82b9-024ce8f2a9d3")
+	)
+	(fp_rect
+		(start -4.4 -1.95)
+		(end 4.4 1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "12aac436-f436-40c1-8003-f28c17427c31")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "dd6ea725-a5fd-4806-9687-98c4ac8f1ff0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -2.5 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1875)
+		(uuid "858621b6-ff18-4ea2-a16e-f9b04a5126b6")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8b264d94-e65f-4d47-89a4-6ee25c30667a")
+	)
+	(pad "3" thru_hole circle
+		(at 2.5 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e1947309-8c6d-4f41-bfcb-942b0d322beb")
+	)
+	(embedded_fonts no)
+)

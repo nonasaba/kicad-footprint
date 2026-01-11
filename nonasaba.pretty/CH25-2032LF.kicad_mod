@@ -1,0 +1,197 @@
+(footprint "CH25-2032LF"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "CR2032 BR2032 BatteryHolder Battery")
+	(property "Reference" "BAT**"
+		(at 14 1.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a96eee1c-0e87-480d-b7f4-8e36c2e6da3e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "CH25-2032LF"
+		(at 14 13 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9ab0b8bf-aa32-4773-b554-4d3ee1f9ca40")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.farnell.com/datasheets/1505855.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e7ce6608-941c-464f-b40f-74ee21423426")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "CR2032 BatteryHolder"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f021fcd-07b6-46d0-94a0-c6bb5b1ae461")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "調達リンク" "https://akizukidenshi.com/catalog/g/g100706/"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "70a8c482-77cc-453a-9e49-600ea5121a6f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3 -4)
+		(end -3 4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "6024d466-d433-4fc1-9dba-c9883576cd29")
+	)
+	(fp_line
+		(start -3 4)
+		(end 2.686292 4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "949b7eff-4afe-4e3e-b0a1-97fcac13c70e")
+	)
+	(fp_line
+		(start 2.686292 -4)
+		(end -3 -4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "4728569b-eb10-4cce-aa1c-705c07e8de94")
+	)
+	(fp_arc
+		(start 2.686292 -4)
+		(mid 26 0)
+		(end 2.686292 4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "4f16c65b-2df0-4d90-a837-b38a3b1a20a7")
+	)
+	(fp_rect
+		(start -2.4 -3.3)
+		(end 3.1 3.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b07ece20-320c-43f7-9eab-e06ad1517e3e")
+	)
+	(fp_circle
+		(center 14 0)
+		(end 14 11.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ffb94506-839c-410d-8bc8-298b0a4209ef")
+	)
+	(fp_text user "CR2032"
+		(at 1.5 -10 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bca8de61-08e3-4bbf-aa49-f0c4f002721e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 14 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3c7ba682-af22-4bd7-bdcf-8338db6acc6e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 5.9 -4.4 270)
+		(size 1.5 1.5)
+		(drill 1.5)
+		(layers "*.Cu")
+		(uuid "63a77d27-5b68-4e02-a2c3-21157f944f2b")
+	)
+	(pad "" np_thru_hole circle
+		(at 14 9.6 270)
+		(size 1.5 1.5)
+		(drill 1.5)
+		(layers "*.Cu")
+		(uuid "a4418c63-1467-4d7d-96aa-45b385a1bd7a")
+	)
+	(pad "" np_thru_hole circle
+		(at 22.1 -4.4 270)
+		(size 1.5 1.5)
+		(drill 1.5)
+		(layers "*.Cu")
+		(uuid "6b2562b2-3145-4618-8667-091325cc7694")
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0 270)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1666666667)
+		(uuid "7f82f768-5892-44ba-b3bb-60232825c846")
+	)
+	(pad "2" thru_hole circle
+		(at 20 0 270)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5e60c3a4-7928-4ce8-bd65-3f5911b2301f")
+	)
+	(embedded_fonts no)
+)
